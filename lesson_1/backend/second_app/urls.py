@@ -1,5 +1,5 @@
 from django.urls import path
-from second_app.views import second_one_view, second_two_view, second_thee_view
+from second_app.views import second_one_view, second_thee_view, second_two_view
 
 urlpatterns = [
     path("second_one", second_one_view),
